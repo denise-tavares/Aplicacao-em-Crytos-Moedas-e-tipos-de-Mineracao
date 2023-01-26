@@ -1,0 +1,11 @@
+=> [32m#<Coin:0x000055e2146204c0[0m
+ id: [1;34m1[0m,
+ description: [31m[1;31m"[0m[31mbiticon[1;31m"[0m[31m[0m,
+ acronym: [31m[1;31m"[0m[31mBTC[1;31m"[0m[31m[0m,
+ url_image:
+  [31m[1;31m"[0m[31mhttps://media.gettyimages.com/id/882085928/pt/vetorial/blockchain-bitcoin-icon-symbol-vector.jpg?s=612x612&w=gi&k=20&c=Ofe8911nisVJXfq-qViIfmW9R8knG-RhVUQYPDBqcSE=[1;31m"[0m[31m[0m,
+ created_at:
+  [1;34;4mMon[0m, [1;34m09[0m [1;34;4mJan[0m [1;34m2023[0m [1;34m01[0m:[1;34m48[0m:[1;34m34[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+ updated_at:
+  [1;34;4mMon[0m, [1;34m09[0m [1;34;4mJan[0m [1;34m2023[0m [1;34m01[0m:[1;34m48[0m:[1;34m34[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+ nining_type_id: [1;36mnil[0m[32m>[0m

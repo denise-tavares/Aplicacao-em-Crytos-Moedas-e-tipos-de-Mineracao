@@ -1,0 +1,2 @@
+module NiningTypesHelper
+end

@@ -1,0 +1,24 @@
+
+en:
+  currnte_locale: "English (Internaciotional)"
+  welcome:  "Welcome!"
+  messages:
+    welcome:  "This is Crypto Wallet, an app for you to register and track your cryptocurrencies"
+    menu:  "To get started, select one of the options below:"
+  hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    new:  "New"
+    back:  "Back"
+  new:
+    coin:  "New Coin"
+    nining_type:  "New Nining_Type"
+  editing:
+    coin :  "editing Coin"
+    nining_type:  "editing Nining Type"
+  showing:
+    coin :  "showing coin"
+    nining_type:  "showing  Nining type"
+

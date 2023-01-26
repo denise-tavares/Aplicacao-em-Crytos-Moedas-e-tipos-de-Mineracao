@@ -1,0 +1,29 @@
+<p> id="notice"><%= notice %></p>
+
+<h1> <%= NiningType.model_name.human(count:@nining_types.count) %>  </h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th><%= @nining_types.human_attribute_name(:description) %></th>
+      <th><%= @nining_types.human_attribute_name(:acronym) %></th>
+      <th> colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @nining_types.each do |nining_type| %>
+      <tr>
+        <td><%= nining_type.description %></td>
+        <td><%= nining_type.acronym %></td>
+        <td><%= link_to t('links.show'), nining_type %> </td>
+        <td><%= link_to t('links.edit'), edit_nining_type_path(nining_type) %></td>
+        <td><%= link_to t('links.delete'), nining_type, method: :delete, data: { confirm: t('messages.confirm') } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to t('new.Nining Type'), new_nining_type_path, class:"btn btn-primary"  %>

@@ -1,0 +1,6 @@
+<h1><%= t('editing.nining_type')%></h1>
+
+<%= render 'form', nining_type: @nining_type %>
+
+<%= link_to t('links.show'), @nining_type, class:"btn btn-primary"%> |
+<%= link_to t('links.back'), nining_types_path, class:"btn btn-primary"%>
