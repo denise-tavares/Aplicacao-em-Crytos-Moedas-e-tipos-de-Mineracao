@@ -34,6 +34,10 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+
+
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw] 
@@ -44,15 +48,6 @@ end
 group :production do
   gem 'pg'
 end
-
-
-
-
-
-
-
-
-
 
 
 group :development do
@@ -68,6 +63,7 @@ end
 gem 'pry-rails'
 gem "tty-spinner"
 gem 'rails-i18n', '~> 5.1' 
+gem 'webpacker'
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15', '< 4.0'
